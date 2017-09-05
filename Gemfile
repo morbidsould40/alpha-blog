@@ -47,6 +47,7 @@ group :development do
 end
 
 group :production do
+  # Postgresql
   gem 'pg'
   gem 'rails_12factor'
 end
