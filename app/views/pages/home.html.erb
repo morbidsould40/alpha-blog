@@ -2,21 +2,21 @@
   <head>
     <style>
       body{
-        background: black;
-        color: white;
+        background: white;
+        color: black;
         font-family: Helvetica;
       }
       .container {
         width: 80%;
         height: 200px;
-        background: black;
+        background: white;
         margin: auto;
         padding: 10px;
       }
       .one {
         width: 50%;
         height: 400px;
-        background: white;
+        background: #eeeeee;
         float: left;
         padding: 10px ,10px ,10px ,10px;
         border: 5px solid black;
@@ -25,7 +25,7 @@
       .two {
         margin-left: 15%;
         height: 400px;
-        background: white;
+        background: #eeeeee;
         padding: 10px ,10px ,10px ,10px;
         border: 5px solid black;
         color: black;
@@ -33,9 +33,11 @@
     </style>
   </head>
   <body>
-    <center><h1>Welcome to Rick's Alpha-Blog</h1>
-    <%= image_tag("http://www.ctcc.no/internal/graphics/ctcc-banner-blue-3.png") %>
-    <!--<img src="http://www.ctcc.no/internal/graphics/ctcc-banner-blue-3.png"></center>-->
+    <center><h1>Welcome to Rick's Alpha-Blog</h1></center>
+    <ul>
+      <li><%= link_to "Alpha Blog", articles_path %></li>
+      <li><%= link_to "About Me", about_path %></li>
+    </ul>
     <p><section class="container">
       <div class="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis justo semper, feugiat massa et, feugiat quam. In ultrices sapien arcu, nec facilisis libero aliquam eget. Fusce ut odio hendrerit, euismod nibh aliquam, congue nisl. Maecenas sit amet volutpat lorem. Etiam cursus pellentesque sapien, ut ultricies velit porta id. Nulla pretium leo eget felis gravida vehicula. Cras scelerisque sapien eros, laoreet rhoncus est scelerisque eu. Curabitur iaculis ultricies nibh, et tristique sapien vulputate eu. Maecenas est justo, interdum at fringilla quis, tempus id leo. Sed dolor odio, pulvinar quis tellus vel, suscipit fermentum turpis.
 
