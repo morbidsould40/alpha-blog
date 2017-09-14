@@ -10,5 +10,11 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require_self
+ * require_tree .
  */
+
+@import "custom";
+// changing the breakpoint value before importing bootstrap style
+// This change is made for the menu (navbar) to collapse on tablet for better view
 @import "bootstrap";
